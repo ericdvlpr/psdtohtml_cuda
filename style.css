@@ -1,0 +1,102 @@
+body{font-family: 'Titillium Web', sans-serif;}
+p{font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-weight: 700;}
+#welcome{background-color:#643a79;}
+ul.navbar-nav li a{color:#fff;}
+#bigbtn {background-color: #eb7d4b; color:#fff; border 15px 15px 15px 15px;}
+#welcome-text{width: 500px;margin: 0 auto;}
+.jumbtron {width:100%;}
+.jumbtron a#bigbtn {position: relative; left:430px;}
+#bigbtn{padding: 25px 25px 25px 25px; width: 250px}
+#service{background-color:#17c2a4;color:#fff;padding:20px;}
+#service h3{margin:0 auto;}
+#service img{width: 100px; height: 100px;}
+#service img#line{width:85px;height: 10px;margin-top:20px;position: relative; left:520px;}
+#team{background-color:#e7f1f8;}
+#team img{width: 170px; height: 170px;}
+#team img#line{width:85px;height: 10px;margin-top:20px;position: relative; left:520px;}
+#team .socials img{display:inline-block; height: 35px; width:35px;}
+#skills{background-color:#fff;}
+#skills img#line{width:85px;height: 10px;margin-top:20px;position: relative; left:520px;}
+#portfolio{background-color:#ffdd99;}
+#portfolio img#line{width:85px;height: 10px;margin-top:20px;position: relative; left:520px;}
+#portfolio div#btn-group{margin-top:20px;position: relative; left:440px;}
+#portfolio a.active{background-color: #fff;}
+#portfolio a{background-color:#ebc985;}
+#testimonials{background-color:#d74680;}
+#testimonials img#line{width:85px;height: 10px;margin-top:20px;position: relative; left:520px;}
+#getintouch{background-color:#3c5499;}
+#getintouch img#line{width:85px;height: 10px;margin-top:20px;position: relative; left:520px;}
+#getintouch button[type=submit] {width: 100%;background-color: #4CAF50;  color: white;  padding: 14px 20px;  margin: 8px 0;  border: none;border-radius: 4px;cursor: pointer;}
+#getintouch #footer{background-color: #344b8e;}
+#getintouch #footer ul{list-style: none;position: relative; left:298px;}
+#getintouch #footer ul li{float: left;}
+#getintouch #footer ul li a{color:#fff;margin-left:55px;}
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
